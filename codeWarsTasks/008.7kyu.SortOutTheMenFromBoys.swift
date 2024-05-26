@@ -1,27 +1,21 @@
 import Foundation
 func sortOutMenFromBoys() {
-    let arrayOfMansAndBoys = [-32,-39,-35,-41]
+    let arrayOfMansAndBoys = [2, 3, 4, 4, 5, 7, 7, 7, 8, 11, 13]
     print(menFromBoys(arrayOfMansAndBoys))
 }
 
 func menFromBoys(_ arr: [Int]) -> [Int] {
-    var oddArr: [Int] = []
-    var evenArr: [Int] = []
+    var oddArr: Set<Int> = []
+    var evenArr: Set<Int> = []
     
     for element in arr {
         if element % 2 == 0 {
-            evenArr.append(element)
+            evenArr.insert(element)
         } else if element % 2 != 0 {
-            oddArr.append(element)
+            oddArr.insert(element)
         }
     }
-    var result: [Int] = evenArr.sorted(by: <) + oddArr.sorted(by: >)
-    for index in stride(from: result.count - 1, to: 0, by: -1) {
-        if result[index] == result[index - 1] {
-            result.remove(at: index)
-        }
-    }
-    return result
+    return Array(evenArr).sorted(by: <) + Array(oddArr).sorted(by: >)
     
 //    CodeWars Solution:
 //    let men: [Int] = Array(Set(arr.filter{ $0 % 2 == 0 })).sorted()
