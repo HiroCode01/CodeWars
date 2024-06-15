@@ -2,7 +2,7 @@ func rectangleIntoSquares() {
     let squareLength = 5
     let squareWidth = 5
     let result = sqInRect(squareLength, squareWidth)
-    print(result)
+    print(result ?? "")
 }
 
 func sqInRect(_ lng: Int, _ wdth: Int) -> [Int]? {

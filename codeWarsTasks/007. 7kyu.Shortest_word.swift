@@ -6,7 +6,7 @@ func shortestWord(){
 
 func find_short(_ str: String) -> Int{
     let words = str.components(separatedBy: CharacterSet.whitespacesAndNewlines)
-    var shortestWord = words.first
+    let shortestWord = words.first
     guard var shortestWord = shortestWord else {
         return 0
     }
