@@ -3,18 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EFEDC9822C03951B00E4C9DF /* 008.7kyu.SortOutTheMenFromBoys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC9792C03951B00E4C9DF /* 008.7kyu.SortOutTheMenFromBoys.swift */; };
-		EFEDC9832C03951B00E4C9DF /* 001. 8kyu. Convert a Boolean to a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC97A2C03951B00E4C9DF /* 001. 8kyu. Convert a Boolean to a String.swift */; };
-		EFEDC9842C03951B00E4C9DF /* 004. 6kyu. Find the odd int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC97B2C03951B00E4C9DF /* 004. 6kyu. Find the odd int.swift */; };
-		EFEDC9852C03951B00E4C9DF /* 003. 8kyu. Beginner - Lost Without a Map .swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC97C2C03951B00E4C9DF /* 003. 8kyu. Beginner - Lost Without a Map .swift */; };
-		EFEDC9862C03951B00E4C9DF /* 002. 8kyu. Grasshopper - Check for factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC97D2C03951B00E4C9DF /* 002. 8kyu. Grasshopper - Check for factor.swift */; };
-		EFEDC9872C03951B00E4C9DF /* 005. 6kyu. Rectangle into Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC97E2C03951B00E4C9DF /* 005. 6kyu. Rectangle into Squares.swift */; };
-		EFEDC9882C03951B00E4C9DF /* 006. 8kyu. Grasshopper - summation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC97F2C03951B00E4C9DF /* 006. 8kyu. Grasshopper - summation.swift */; };
-		EFEDC9892C03951B00E4C9DF /* 007. 7kyu.Shortest_word.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC9802C03951B00E4C9DF /* 007. 7kyu.Shortest_word.swift */; };
 		EFEDC98A2C03951B00E4C9DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC9812C03951B00E4C9DF /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,16 +24,14 @@
 
 /* Begin PBXFileReference section */
 		EF670B4B2BEE4E69005D4C56 /* codeWarsTasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeWarsTasks; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFEDC9792C03951B00E4C9DF /* 008.7kyu.SortOutTheMenFromBoys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 008.7kyu.SortOutTheMenFromBoys.swift; sourceTree = "<group>"; };
-		EFEDC97A2C03951B00E4C9DF /* 001. 8kyu. Convert a Boolean to a String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001. 8kyu. Convert a Boolean to a String.swift"; sourceTree = "<group>"; };
-		EFEDC97B2C03951B00E4C9DF /* 004. 6kyu. Find the odd int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "004. 6kyu. Find the odd int.swift"; sourceTree = "<group>"; };
-		EFEDC97C2C03951B00E4C9DF /* 003. 8kyu. Beginner - Lost Without a Map .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "003. 8kyu. Beginner - Lost Without a Map .swift"; sourceTree = "<group>"; };
-		EFEDC97D2C03951B00E4C9DF /* 002. 8kyu. Grasshopper - Check for factor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "002. 8kyu. Grasshopper - Check for factor.swift"; sourceTree = "<group>"; };
-		EFEDC97E2C03951B00E4C9DF /* 005. 6kyu. Rectangle into Squares.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "005. 6kyu. Rectangle into Squares.swift"; sourceTree = "<group>"; };
-		EFEDC97F2C03951B00E4C9DF /* 006. 8kyu. Grasshopper - summation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "006. 8kyu. Grasshopper - summation.swift"; sourceTree = "<group>"; };
-		EFEDC9802C03951B00E4C9DF /* 007. 7kyu.Shortest_word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "007. 7kyu.Shortest_word.swift"; sourceTree = "<group>"; };
 		EFEDC9812C03951B00E4C9DF /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF47D4042E6DE91E0025537A /* 8kyu */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 8kyu; sourceTree = "<group>"; };
+		EF47D4052E6DE92F0025537A /* 7kyu */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 7kyu; sourceTree = "<group>"; };
+		EF47D4062E6DE9410025537A /* 6kyu */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 6kyu; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF670B482BEE4E69005D4C56 /* Frameworks */ = {
@@ -73,14 +63,9 @@
 		EF670B4D2BEE4E69005D4C56 /* codeWarsTasks */ = {
 			isa = PBXGroup;
 			children = (
-				EFEDC97A2C03951B00E4C9DF /* 001. 8kyu. Convert a Boolean to a String.swift */,
-				EFEDC97D2C03951B00E4C9DF /* 002. 8kyu. Grasshopper - Check for factor.swift */,
-				EFEDC97C2C03951B00E4C9DF /* 003. 8kyu. Beginner - Lost Without a Map .swift */,
-				EFEDC97B2C03951B00E4C9DF /* 004. 6kyu. Find the odd int.swift */,
-				EFEDC97E2C03951B00E4C9DF /* 005. 6kyu. Rectangle into Squares.swift */,
-				EFEDC97F2C03951B00E4C9DF /* 006. 8kyu. Grasshopper - summation.swift */,
-				EFEDC9802C03951B00E4C9DF /* 007. 7kyu.Shortest_word.swift */,
-				EFEDC9792C03951B00E4C9DF /* 008.7kyu.SortOutTheMenFromBoys.swift */,
+				EF47D4062E6DE9410025537A /* 6kyu */,
+				EF47D4052E6DE92F0025537A /* 7kyu */,
+				EF47D4042E6DE91E0025537A /* 8kyu */,
 				EFEDC9812C03951B00E4C9DF /* main.swift */,
 			);
 			path = codeWarsTasks;
@@ -101,6 +86,11 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				EF47D4042E6DE91E0025537A /* 8kyu */,
+				EF47D4052E6DE92F0025537A /* 7kyu */,
+				EF47D4062E6DE9410025537A /* 6kyu */,
+			);
 			name = codeWarsTasks;
 			productName = codeWarsTasks;
 			productReference = EF670B4B2BEE4E69005D4C56 /* codeWarsTasks */;
@@ -114,7 +104,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					EF670B4A2BEE4E69005D4C56 = {
 						CreatedOnToolsVersion = 15.3;
@@ -144,15 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEDC9862C03951B00E4C9DF /* 002. 8kyu. Grasshopper - Check for factor.swift in Sources */,
 				EFEDC98A2C03951B00E4C9DF /* main.swift in Sources */,
-				EFEDC9832C03951B00E4C9DF /* 001. 8kyu. Convert a Boolean to a String.swift in Sources */,
-				EFEDC9822C03951B00E4C9DF /* 008.7kyu.SortOutTheMenFromBoys.swift in Sources */,
-				EFEDC9882C03951B00E4C9DF /* 006. 8kyu. Grasshopper - summation.swift in Sources */,
-				EFEDC9892C03951B00E4C9DF /* 007. 7kyu.Shortest_word.swift in Sources */,
-				EFEDC9872C03951B00E4C9DF /* 005. 6kyu. Rectangle into Squares.swift in Sources */,
-				EFEDC9852C03951B00E4C9DF /* 003. 8kyu. Beginner - Lost Without a Map .swift in Sources */,
-				EFEDC9842C03951B00E4C9DF /* 004. 6kyu. Find the odd int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +175,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -256,6 +239,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -281,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = DVNKSLNML5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = DVNKSLNML5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

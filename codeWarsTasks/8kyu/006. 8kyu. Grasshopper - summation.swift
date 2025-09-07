@@ -4,10 +4,10 @@ func grasShopperSummation() {
 }
 
 func summation(_ n: Int) -> Int {
-    var summ = 0
+    var sum = 0
     for number in 1...n {
-        summ += number
+        sum += number
     }
-    return summ
+    return sum
 //    return n * (1 + n) / 2
 }
